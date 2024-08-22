@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
     button.disabled = true;
     output.innerHTML = "Loading...";
     // Fetch the dictionary data from an API
-    fetch(`https://ibani-dictionary-71tvv5sre-williampepple1s-projects.vercel.app/search?word=${word}`)
+    fetch(`https://ibani-dictionary-git-main-williampepple1s-projects.vercel.app/search?word=${word}`)
       .then((response) => response.json())
       .then((data) => {
         // Check if the data is an array
