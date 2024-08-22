@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
     button.disabled = true;
     output.innerHTML = "Loading...";
     // Fetch the dictionary data from an API
-    fetch(`http://localhost:8000/search?word=${word}`)
+    fetch(`https://ibani-dictionary.onrender.com/search?word=${word}`)
       .then((response) => response.json())
       .then((data) => {
         // Check if the data is an array
