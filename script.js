@@ -26,7 +26,7 @@ form.addEventListener("submit", (event) => {
           
           // Iterate over each entry in the data array
           data.forEach((entry) => {
-            const word = entry.Ibani_word;
+            const word = entry.Ibani;
             const partOfSpeech = entry.Pos;
             const definition = entry.Meaning;
 
